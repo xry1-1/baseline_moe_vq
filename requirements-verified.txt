@@ -1,0 +1,9 @@
+# Core versions actually executed locally: Python 3.13.5, Windows, RTX 5080.
+# Install the appropriate torch wheel first; local CUDA runtime was cu128.
+# Other operating systems/GPUs must run the documented smoke test themselves.
+torch==2.11.0
+transformers==5.4.0
+huggingface-hub==1.8.0
+numpy==2.3.1
+scipy==1.16.0
+PyYAML==6.0.2

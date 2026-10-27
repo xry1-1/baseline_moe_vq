@@ -1,0 +1,10 @@
+# Dedicated minimal environment for scripts/pretraining/train_moe_vq.py.
+# Python 3.10 or 3.11. Install torch for your CPU/CUDA platform first (see docs).
+# These pins are a server setup recommendation; see docs for actually tested runtime.
+torch==2.5.1
+transformers==4.44.2
+huggingface-hub==0.24.7
+numpy==1.26.4
+scipy==1.13.1
+PyYAML==6.0.2
+python-dotenv==1.0.1
